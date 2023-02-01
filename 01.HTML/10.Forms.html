@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+
+    <!-- An HTML form is used to collect user input. -->
+    <!-- <input> element is the most used form element. -->
+    <!--
+        <input type="text">
+        <input type="radio">
+        <input type="checkbox">
+        <input type="submit">
+        <input type="button">
+    -->
+
+    <body>
+
+        <!-- TEXT -->
+        <form>
+            <div>
+                <label>First name: </label><br>
+                <input type="text" name="firstName">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Last name: </label><br>
+                <input type="text" name="lastName">
+            </div>
+
+        </form>
+
+        <!-- RADIO BUTTONS -->
+        <form>
+            <input type="radio" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+        
+        <hr>
+        
+        <form>
+            <fieldset>
+                <legend>Personal Data</legend>
+                <label>First name: </label>
+                <input type="text" name="firstName" placeholder="Name">
+                <br>
+                <br>
+                <label>Last name: </label>
+                <input type="text" name="lastName" placeholder="Surname">
+                <br>
+                <br>
+                <label>Prefered Language: </label>
+                <br>
+                <input type="radio" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+
+
+    </body>
+
+</html>
